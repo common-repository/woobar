@@ -1,0 +1,546 @@
+/* General Styles*/
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.batil-container {
+    position: absolute;
+    top: 0px;
+    bottom: auto;
+    display: none;
+    padding: 0 30px;
+    width: 100%;
+    height: auto;
+    min-height: 38px;
+    background: #67a747;
+    text-align: center;
+    z-index: 99999;    
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 767px) {
+    .batil-container {
+        padding: 0 15px;
+    }
+}
+
+.batil-container.showing-immediately {
+    display: flex;
+}
+
+.batil-container.showing-on-scroll {
+    display: flex;
+    -webkit-animation: fadeIn 400ms;
+    animation: fadeIn 400ms;
+}
+
+.batil-container.showing-on-time {
+    display: flex;
+    -webkit-animation: fadeIn 400ms;
+    animation: fadeIn 400ms;
+}
+
+.batil-container .batil-dissmiss-btn {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    opacity: 0;
+    cursor: pointer;
+    -webkit-transition: .2s;
+    transition: .2s;
+    z-index: 99;
+}
+
+.batil-container:hover .batil-dissmiss-btn {
+    opacity: 1;
+}
+
+.batil-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 767px) {
+    .batil-inner {
+        display: block;
+    }
+}
+
+.batil-inner a:hover,
+  .batil-inner a:focus {
+    outline: 0;
+}
+
+.batil-inner .message-text {
+    color: #fff;
+    display: inline-block;
+    position: relative;
+}
+
+.batil-inner .message-text p, .batil-inner .message-text h1, .batil-inner .message-text h2, .batil-inner .message-text h3, .batil-inner .message-text h4, .batil-inner .message-text h5, .batil-inner .message-text h6 {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.batil-inner #batil-promo-code {
+    display: inline-table;
+    position: relative;
+    margin: 4px 5px;
+    padding: 0px 15px;
+    height: 30px;
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: none;
+    border-radius: 3px;
+    outline: 0;
+    color: transparent;
+    overflow: hidden;
+    cursor: pointer;
+    text-indent: 0px;
+    margin-left: 15px;
+    line-height: 26px;
+    border: 2px dashed #ffffff;
+    color: #ffffff;
+    z-index: 1;
+    -webkit-transition-property: opacity, color;
+    transition-property: opacity, color;
+    -webkit-transition-duration: 0.3s, 0.3s;
+    transition-duration: 0.3s, 0.3s;
+    -webkit-transition-timing-function: ease-in-out, ease-in-out;
+    transition-timing-function: ease-in-out, ease-in-out;
+}
+
+.batil-inner #batil-promo-code:after {
+    content: "";
+    position: absolute;
+    text-transform: uppercase;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0 15px;
+    border-radius: inherit;
+    text-indent: 0px;
+    line-height: 30px;
+    opacity: 1;
+    z-index: -1;
+    background: -webkit-repeating-linear-gradient(135deg, transparent, transparent 5px, rgba(0, 0, 0, 0.15) 5px, rgba(0, 0, 0, 0.15) 10px);
+    background: repeating-linear-gradient(-45deg, transparent, transparent 5px, rgba(0, 0, 0, 0.15) 5px, rgba(0, 0, 0, 0.15) 10px);
+}
+
+.batil-inner .batil-term-message {
+    position: relative;
+    display: inline-block;
+}
+
+.batil-term-message .batil-info-link {
+    position: relative;
+    padding: 5px 15px;
+    border-radius: 3px;
+    background: #FFFF00;
+    font-size: 16px;
+    color: #272727;
+    font-weight: 600;
+    vertical-align: middle;
+    white-space: nowrap;
+    margin-left: 5px;
+    text-decoration: none;
+    font-family: arial, helvetica, sans-serif;
+    height: 26px;
+    display: inline-block;
+    line-height: 18px;
+}
+
+.batil-term-message .batil-info-link:hover {
+    opacity: .9;
+}
+
+/*Css Override*/
+.flip-clock-wrapper ul li a div div.inn {
+    color: #fff;
+}
+
+.flip-clock-wrapper .hours .flip-clock-label, .flip-clock-wrapper .minutes .flip-clock-label, .flip-clock-wrapper .seconds .flip-clock-label {
+    left: 13px;
+}
+
+.flip-clock-wrapper .minutes .flip-clock-label {
+    left: 13px;
+}
+
+.flip-clock-wrapper .seconds .flip-clock-label {
+    left: 13px;
+}
+
+.flip-clock-wrapper .flip-clock-label {
+    width: 50px;
+}
+
+/* Social Buttons Styles */
+.batil-share-buttons {
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle;
+}
+
+.batil-share-buttons ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: block;
+    min-height: 38px;
+}
+
+.batil-share-buttons ul li {
+    float: left;
+    margin: 0;
+    text-align: left;
+    height: 38px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    line-height: 38px;
+}
+
+.batil-share-buttons ul li .batil-fb {
+    background-color: #3B5999;
+}
+
+.batil-share-buttons ul li .batil-tw {
+    background-color: #00ACED;
+}
+
+.batil-share-buttons ul li .batil-pin {
+    background-color: #CB2026;
+}
+
+.batil-share-buttons ul li .batil-linkedin {
+    background-color: #007BB6;
+}
+
+.batil-share-buttons ul li .batil-blogger {
+    background-color: #FE8831;
+}
+
+.batil-share-buttons ul li .batil-tumblr {
+    background-color: #32506D;
+}
+
+.batil-share-buttons ul li .batil-reddit {
+    background-color: #ED4000;
+}
+
+.batil-share-buttons ul a {
+    color: #fff;
+}
+
+.batil-share-buttons ul a:hover {
+    opacity: .9;
+}
+
+.batil-share-buttons.style-1 span {
+    display: none;
+}
+
+.batil-share-buttons.style-1 li a i {
+    text-align: center;
+    display: block;
+    font-size: 22px;
+    width: 38px;
+    height: 38px;
+    line-height: 38px;
+    overflow: hidden;
+}
+
+.batil-share-buttons.style-2 span, .batil-share-buttons.style-3 span {
+    display: none;
+}
+
+.batil-share-buttons.style-2 li a, .batil-share-buttons.style-3 li a {
+    overflow: hidden;
+    border-radius: 4px;
+    margin-right: 3px;
+    margin-left: 3px;
+}
+
+.batil-share-buttons.style-2 li a i, .batil-share-buttons.style-3 li a i {
+    text-align: center;
+    display: block;
+    font-size: 16px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+}
+
+.batil-share-buttons.style-3 li a {
+    border-radius: 100%;
+}
+
+.batil-share-buttons.style-4 li a, .batil-share-buttons.style-5 li a {
+    display: inline-block;
+    margin-left: 3px;
+    margin-right: 3px;
+    overflow: hidden;
+    width: auto;
+    border-radius: 4px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    padding: 0 6px;
+}
+
+.batil-share-buttons.style-4 li a i, .batil-share-buttons.style-5 li a i {
+    padding-right: 7px;
+    padding-left: 3px;
+}
+
+.batil-share-buttons.style-4 li a span, .batil-share-buttons.style-5 li a span {
+    font-size: 14px;
+    position: relative;
+    font-family: arial, helvetica, sans-serif;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.batil-share-buttons.style-4 li a span:before, .batil-share-buttons.style-5 li a span:before {
+    content: "";
+    position: absolute;
+    left: -6px;
+    box-shadow: 1px 0 rgba(255, 255, 255, 0.62);
+    height: 70%;
+    width: 1px;
+    top: 3px;
+}
+
+.batil-share-buttons.style-5 li a {
+    padding-right: 12px;
+    padding-left: 8px;
+    border-radius: 50px;
+}
+
+.batil-share-buttons.style-1 .batil-fb i:before, .batil-share-buttons.style-2 .batil-fb i:before, .batil-share-buttons.style-3 .batil-fb i:before {
+    text-shadow: 1px 1px #30497d, 2px 2px #30497d, 3px 3px #30497d, 4px 4px #30497d, 5px 5px #30497d, 6px 6px #30497d, 7px 7px #30497d, 8px 8px #30497d, 9px 9px #30497d, 10px 10px #30497d, 11px 11px #30497d, 12px 12px #30497d, 13px 13px #30497d, 14px 14px #30497d, 15px 15px #30497d, 16px 16px #30497d, 17px 17px #30497d, 18px 18px #30497d, 19px 19px #30497d, 20px 20px #30497d, 21px 21px #30497d, 22px 22px #30497d, 23px 23px #30497d, 24px 24px #30497d, 25px 25px #30497d, 26px 26px #30497d, 27px 27px #30497d, 28px 28px #30497d, 29px 29px #30497d, 30px 30px #30497d;
+}
+
+.batil-share-buttons.style-1 .batil-tw i:before, .batil-share-buttons.style-2 .batil-tw i:before, .batil-share-buttons.style-3 .batil-tw i:before {
+    text-shadow: 1px 1px #008ec4, 2px 2px #008ec4, 3px 3px #008ec4, 4px 4px #008ec4, 5px 5px #008ec4, 6px 6px #008ec4, 7px 7px #008ec4, 8px 8px #008ec4, 9px 9px #008ec4, 10px 10px #008ec4, 11px 11px #008ec4, 12px 12px #008ec4, 13px 13px #008ec4, 14px 14px #008ec4, 15px 15px #008ec4, 16px 16px #008ec4, 17px 17px #008ec4, 18px 18px #008ec4, 19px 19px #008ec4, 20px 20px #008ec4, 21px 21px #008ec4, 22px 22px #008ec4, 23px 23px #008ec4, 24px 24px #008ec4, 25px 25px #008ec4, 26px 26px #008ec4, 27px 27px #008ec4, 28px 28px #008ec4, 29px 29px #008ec4, 30px 30px #008ec4;
+}
+
+.batil-share-buttons.style-1 .batil-pin i:before, .batil-share-buttons.style-2 .batil-pin i:before, .batil-share-buttons.style-3 .batil-pin i:before {
+    text-shadow: 1px 1px #b2070f, 2px 2px #b2070f, 3px 3px #b2070f, 4px 4px #b2070f, 5px 5px #b2070f, 6px 6px #b2070f, 7px 7px #b2070f, 8px 8px #b2070f, 9px 9px #b2070f, 10px 10px #b2070f, 11px 11px #b2070f, 12px 12px #b2070f, 13px 13px #b2070f, 14px 14px #b2070f, 15px 15px #b2070f, 16px 16px #b2070f, 17px 17px #b2070f, 18px 18px #b2070f, 19px 19px #b2070f, 20px 20px #b2070f, 21px 21px #b2070f, 22px 22px #b2070f, 23px 23px #b2070f, 24px 24px #b2070f, 25px 25px #b2070f, 26px 26px #b2070f, 27px 27px #b2070f, 28px 28px #b2070f, 29px 29px #b2070f, 30px 30px #b2070f;
+}
+
+.batil-share-buttons.style-1 .batil-tumblr i:before, .batil-share-buttons.style-2 .batil-tumblr i:before, .batil-share-buttons.style-3 .batil-tumblr i:before {
+    text-shadow: 1px 1px #1e3c59, 2px 2px #1e3c59, 3px 3px #1e3c59, 4px 4px #1e3c59, 5px 5px #1e3c59, 6px 6px #1e3c59, 7px 7px #1e3c59, 8px 8px #1e3c59, 9px 9px #1e3c59, 10px 10px #1e3c59, 11px 11px #1e3c59, 12px 12px #1e3c59, 13px 13px #1e3c59, 14px 14px #1e3c59, 15px 15px #1e3c59, 16px 16px #1e3c59, 17px 17px #1e3c59, 18px 18px #1e3c59, 19px 19px #1e3c59, 20px 20px #1e3c59, 21px 21px #1e3c59, 22px 22px #1e3c59, 23px 23px #1e3c59, 24px 24px #1e3c59, 25px 25px #1e3c59, 26px 26px #1e3c59, 27px 27px #1e3c59, 28px 28px #1e3c59, 29px 29px #1e3c59, 30px 30px #1e3c59;
+}
+
+.batil-share-buttons.style-1 .batil-reddit i:before, .batil-share-buttons.style-2 .batil-reddit i:before, .batil-share-buttons.style-3 .batil-reddit i:before {
+    text-shadow: 1px 1px #d03800, 2px 2px #d03800, 3px 3px #d03800, 4px 4px #d03800, 5px 5px #d03800, 6px 6px #d03800, 7px 7px #d03800, 8px 8px #d03800, 9px 9px #d03800, 10px 10px #d03800, 11px 11px #d03800, 12px 12px #d03800, 13px 13px #d03800, 14px 14px #d03800, 15px 15px #d03800, 16px 16px #d03800, 17px 17px #d03800, 18px 18px #d03800, 19px 19px #d03800, 20px 20px #d03800, 21px 21px #d03800, 22px 22px #d03800, 23px 23px #d03800, 24px 24px #d03800, 25px 25px #d03800, 26px 26px #d03800, 27px 27px #d03800, 28px 28px #d03800, 29px 29px #d03800, 30px 30px #d03800;
+}
+
+/* Countdown Styles*/
+.batil-countdown-wrapper {
+    display: inline-block;
+    min-height: 25px;
+    margin-left: 10px;
+}
+
+@media (max-width: 767px) {
+    .batil-countdown-wrapper {
+        margin: 0;
+    }
+}
+
+.batil-countdown-wrapper.style-1 {
+    background: black;
+    border-radius: 3px;
+    height: auto;
+    width: auto;
+    padding-top: 3px;
+    min-height: 25px;
+    max-height: 100%;
+    vertical-align: middle;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.batil-countdown-wrapper.style-1 .batil-countdown-item {
+    height: auto;
+    padding-bottom: 5px;
+    padding-left: 7px;
+}
+
+.batil-countdown-wrapper.style-1 .batil-countdown-number {
+    color: #ffffff;
+    font-family: arial,helvetica,sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1;
+    position: relative;
+    padding-right: 7px;
+}
+
+.batil-countdown-wrapper.style-1 .batil-countdown-label {
+    color: #ffffff;
+    font-size: 9.6px;
+    line-height: 1;
+    text-transform: uppercase;
+    padding-right: 7px;
+}
+
+.batil-countdown-wrapper.style-1 .batil-countdown-number:before {
+    content: "";
+    position: absolute;
+    bottom: 5px;
+    right: 0;
+    height: 60%;
+    width: 1px;
+    background: #9e9b9e;
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, #000000), color-stop(36%, #ffffff), color-stop(46%, #ffffff), color-stop(60%, #ffffff), color-stop(100%, #fffeff));
+    background: -webkit-linear-gradient(top, #000000 0%, #ffffff 36%, #ffffff 46%, #ffffff 60%, #000000 100%);
+    background: -webkit-gradient(linear, left top, left bottom, from(#000000), color-stop(36%, #ffffff), color-stop(46%, #ffffff), color-stop(60%, #ffffff), to(#000000));
+    background: linear-gradient(to bottom, #000000 0%, #ffffff 36%, #ffffff 46%, #ffffff 60%, #000000 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9e9b9e', endColorstr='#918c91', GradientType=0 );
+}
+
+.batil-countdown-wrapper.style-1 .batil-countdown-item:last-child .batil-countdown-number:before {
+    background: none;
+}
+
+.batil-countdown-wrapper.style-2 {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.batil-countdown-wrapper.style-2 .batil-countdown-item {
+    background-color: black;
+    margin-right: 7px;
+    border-radius: 3px;
+    width: auto;
+    min-width: 60px;
+    height: auto;
+    position: relative;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.batil-countdown-wrapper.style-3 .batil-countdown-item {
+    background-color: black;
+    margin-right: 7px;
+    border-radius: 3px;
+    width: auto;
+    min-width: 60px;
+    height: auto;
+    position: relative;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.batil-countdown-wrapper.style-2 .batil-countdown-number {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 600;
+    width: 32px;
+    display: block;
+    text-align: right;
+    float: left;
+    height: 100%;
+    line-height: 38px;
+}
+
+.batil-countdown-wrapper.style-2 .batil-countdown-label {
+    float: left;
+    color: #ffffff;
+    font-size: 9.6px;
+    width: auto;
+    text-transform: uppercase;
+    padding-left: 2px;
+    text-align: right;
+    float: left;
+    margin-top: 12px;
+}
+
+.batil-countdown-wrapper.style-3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.batil-countdown-wrapper.style-3 .batil-countdown-item {
+    min-height: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    min-width: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.batil-countdown-wrapper.style-3 .batil-countdown-number {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1;
+    position: relative;
+    color: #ffffff;
+    padding-right: 0;
+}
+
+.batil-countdown-wrapper.style-3 .batil-countdown-label {
+    font-size: 9.6px;
+    line-height: 1;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.batil-countdown-wrapper.style-4 {
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 5px;
+    padding-bottom: 9.6px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.batil-countdown-item {
+    height: 100%;
+    vertical-align: middle;
+    margin: 0;
+    display: inline-block;
+    position: relative;
+    color: #fff;
+    min-height: 25px;
+}

@@ -1,0 +1,376 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Woobar\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-07 19:31+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: batil.php:86 Themeforest Packege/batil/batil.php:86
+msgid "Years"
+msgstr ""
+
+#: batil.php:87 Themeforest Packege/batil/batil.php:87
+msgid "Month"
+msgstr ""
+
+#: batil.php:88 Themeforest Packege/batil/batil.php:88
+msgid "Days"
+msgstr ""
+
+#: batil.php:89 Themeforest Packege/batil/batil.php:89
+msgid "Hrs"
+msgstr ""
+
+#: batil.php:90 Themeforest Packege/batil/batil.php:90
+msgid "Mins"
+msgstr ""
+
+#: batil.php:91 Themeforest Packege/batil/batil.php:91
+msgid "Secs"
+msgstr ""
+
+#: inc/batil-options.php:25 inc/batil-options.php:34 Themeforest
+#: Packege/batil/inc/batil-options.php:25 Themeforest
+#: Packege/batil/inc/batil-options.php:34
+msgid "Batil Settings"
+msgstr ""
+
+#: inc/batil-options.php:27 Themeforest Packege/batil/inc/batil-options.php:27
+msgid "1.0"
+msgstr ""
+
+#: inc/batil-options.php:33 Themeforest Packege/batil/inc/batil-options.php:33
+msgid "Batil"
+msgstr ""
+
+#: inc/batil-options.php:149 Themeforest
+#: Packege/batil/inc/batil-options.php:149
+msgid "General"
+msgstr ""
+
+#: inc/batil-options.php:151 Themeforest
+#: Packege/batil/inc/batil-options.php:151
+msgid "General Options"
+msgstr ""
+
+#: inc/batil-options.php:157 Themeforest
+#: Packege/batil/inc/batil-options.php:157
+msgid "Promote Specials, New Arrivals and Free Shipping Here"
+msgstr ""
+
+#: inc/batil-options.php:158 Themeforest
+#: Packege/batil/inc/batil-options.php:158
+msgid "Message Text"
+msgstr ""
+
+#: inc/batil-options.php:174 Themeforest
+#: Packege/batil/inc/batil-options.php:174
+msgid "Message Text Font"
+msgstr ""
+
+#: inc/batil-options.php:175 inc/batil-options.php:281
+#: inc/batil-options.php:476 Themeforest
+#: Packege/batil/inc/batil-options.php:175 Themeforest
+#: Packege/batil/inc/batil-options.php:281 Themeforest
+#: Packege/batil/inc/batil-options.php:485
+msgid "Specify the font properties."
+msgstr ""
+
+#: inc/batil-options.php:193 Themeforest
+#: Packege/batil/inc/batil-options.php:193
+msgid "Message Text Color"
+msgstr ""
+
+#: inc/batil-options.php:194 Themeforest
+#: Packege/batil/inc/batil-options.php:194
+msgid "Pick a color for the text (default: #fff)."
+msgstr ""
+
+#: inc/batil-options.php:203 Themeforest
+#: Packege/batil/inc/batil-options.php:203
+msgid "Coupon Code"
+msgstr ""
+
+#: inc/batil-options.php:205 Themeforest
+#: Packege/batil/inc/batil-options.php:205
+msgid "E.g. CODE123"
+msgstr ""
+
+#: inc/batil-options.php:210 Themeforest
+#: Packege/batil/inc/batil-options.php:210
+msgid "Coupon Code Color"
+msgstr ""
+
+#: inc/batil-options.php:218 Themeforest
+#: Packege/batil/inc/batil-options.php:218
+msgid "Bar Background Color"
+msgstr ""
+
+#: inc/batil-options.php:228 Themeforest
+#: Packege/batil/inc/batil-options.php:228
+msgid "Button Settings"
+msgstr ""
+
+#: inc/batil-options.php:229 Themeforest
+#: Packege/batil/inc/batil-options.php:229
+msgid "Button Setting"
+msgstr ""
+
+#: inc/batil-options.php:237 Themeforest
+#: Packege/batil/inc/batil-options.php:237
+msgid "Your Button Text"
+msgstr ""
+
+#: inc/batil-options.php:238 Themeforest
+#: Packege/batil/inc/batil-options.php:238
+msgid "E.g. Get it now"
+msgstr ""
+
+#: inc/batil-options.php:243 Themeforest
+#: Packege/batil/inc/batil-options.php:243
+msgid "Button Link"
+msgstr ""
+
+#: inc/batil-options.php:245 inc/batil-options.php:321 Themeforest
+#: Packege/batil/inc/batil-options.php:245 Themeforest
+#: Packege/batil/inc/batil-options.php:321
+msgid "Ex. http://www.yoursite.com"
+msgstr ""
+
+#: inc/batil-options.php:250 Themeforest
+#: Packege/batil/inc/batil-options.php:250
+msgid "Button Link Target"
+msgstr ""
+
+#: inc/batil-options.php:261 Themeforest
+#: Packege/batil/inc/batil-options.php:261
+msgid "Button Text Color"
+msgstr ""
+
+#: inc/batil-options.php:270 Themeforest
+#: Packege/batil/inc/batil-options.php:270
+msgid "Button Background Color"
+msgstr ""
+
+#: inc/batil-options.php:271 Themeforest
+#: Packege/batil/inc/batil-options.php:271
+msgid "Pick a Background color for the Button"
+msgstr ""
+
+#: inc/batil-options.php:280 Themeforest
+#: Packege/batil/inc/batil-options.php:280
+msgid "Button Text Font"
+msgstr ""
+
+#: inc/batil-options.php:300 Themeforest
+#: Packege/batil/inc/batil-options.php:300
+msgid "Social Sharing"
+msgstr ""
+
+#: inc/batil-options.php:301 Themeforest
+#: Packege/batil/inc/batil-options.php:301
+msgid "Social Sharing Button settings"
+msgstr ""
+
+#: inc/batil-options.php:310 Themeforest
+#: Packege/batil/inc/batil-options.php:310
+msgid "Social Sharing Buttons"
+msgstr ""
+
+#: inc/batil-options.php:320 Themeforest
+#: Packege/batil/inc/batil-options.php:320
+msgid "Share page URL (optional)"
+msgstr ""
+
+#: inc/batil-options.php:326 Themeforest
+#: Packege/batil/inc/batil-options.php:326
+msgid "Select Social Style"
+msgstr ""
+
+#: inc/batil-options.php:357 Themeforest
+#: Packege/batil/inc/batil-options.php:357
+msgid "Facebook"
+msgstr ""
+
+#: inc/batil-options.php:366 Themeforest
+#: Packege/batil/inc/batil-options.php:375
+msgid "Twitter"
+msgstr ""
+
+#: inc/batil-options.php:375 Themeforest
+#: Packege/batil/inc/batil-options.php:384
+msgid "Pintarest"
+msgstr ""
+
+#: inc/batil-options.php:384 Themeforest
+#: Packege/batil/inc/batil-options.php:393
+msgid "Linkedin"
+msgstr ""
+
+#: inc/batil-options.php:393 Themeforest
+#: Packege/batil/inc/batil-options.php:402
+msgid "Tumblr"
+msgstr ""
+
+#: inc/batil-options.php:402 Themeforest
+#: Packege/batil/inc/batil-options.php:411
+msgid "Reddit"
+msgstr ""
+
+#: inc/batil-options.php:409 Themeforest
+#: Packege/batil/inc/batil-options.php:418
+msgid "Countdown Timer"
+msgstr ""
+
+#: inc/batil-options.php:410 Themeforest
+#: Packege/batil/inc/batil-options.php:419
+msgid "Countdown Timer Setting"
+msgstr ""
+
+#: inc/batil-options.php:419 Themeforest
+#: Packege/batil/inc/batil-options.php:428
+msgid "Add Countdown Timer"
+msgstr ""
+
+#: inc/batil-options.php:427 Themeforest
+#: Packege/batil/inc/batil-options.php:436
+msgid "MM/DD/YYYY"
+msgstr ""
+
+#: inc/batil-options.php:428 Themeforest
+#: Packege/batil/inc/batil-options.php:437
+msgid "Countdown Date"
+msgstr ""
+
+#: inc/batil-options.php:433 Themeforest
+#: Packege/batil/inc/batil-options.php:442
+msgid "Select Counter Style"
+msgstr ""
+
+#: inc/batil-options.php:457 Themeforest
+#: Packege/batil/inc/batil-options.php:466
+msgid "Counter Text Color"
+msgstr ""
+
+#: inc/batil-options.php:466 Themeforest
+#: Packege/batil/inc/batil-options.php:475
+msgid "Counter Background Color"
+msgstr ""
+
+#: inc/batil-options.php:475 Themeforest
+#: Packege/batil/inc/batil-options.php:484
+msgid "Counter Text Font"
+msgstr ""
+
+#: inc/batil-options.php:496 inc/batil-options.php:498 Themeforest
+#: Packege/batil/inc/batil-options.php:505 Themeforest
+#: Packege/batil/inc/batil-options.php:507
+msgid "Display Options"
+msgstr ""
+
+#: inc/batil-options.php:504 Themeforest
+#: Packege/batil/inc/batil-options.php:513
+msgid "Bar Height"
+msgstr ""
+
+#: inc/batil-options.php:505 Themeforest
+#: Packege/batil/inc/batil-options.php:514
+msgid "Specify a minimum height"
+msgstr ""
+
+#: inc/batil-options.php:511 Themeforest
+#: Packege/batil/inc/batil-options.php:520
+msgid "(px)"
+msgstr ""
+
+#: inc/batil-options.php:516 Themeforest
+#: Packege/batil/inc/batil-options.php:525
+msgid "Bar Display Position"
+msgstr ""
+
+#: inc/batil-options.php:528 Themeforest
+#: Packege/batil/inc/batil-options.php:537
+msgid "When to display"
+msgstr ""
+
+#: inc/batil-options.php:542 Themeforest
+#: Packege/batil/inc/batil-options.php:551
+msgid "Specify Time (second)"
+msgstr ""
+
+#: inc/batil-options.php:552 Themeforest
+#: Packege/batil/inc/batil-options.php:561
+msgid "Scroll Percentage"
+msgstr ""
+
+#: inc/batil-options.php:563 Themeforest
+#: Packege/batil/inc/batil-options.php:572
+msgid "Where to display"
+msgstr ""
+
+#: inc/batil-options.php:574 inc/batil-options.php:584 Themeforest
+#: Packege/batil/inc/batil-options.php:583 Themeforest
+#: Packege/batil/inc/batil-options.php:593
+msgid "On URLs containing"
+msgstr ""
+
+#: inc/batil-options.php:578 inc/batil-options.php:588 Themeforest
+#: Packege/batil/inc/batil-options.php:587 Themeforest
+#: Packege/batil/inc/batil-options.php:597
+msgid "Add URL"
+msgstr ""
+
+#: inc/batil-options.php:579 inc/batil-options.php:589 Themeforest
+#: Packege/batil/inc/batil-options.php:588 Themeforest
+#: Packege/batil/inc/batil-options.php:598
+msgid ""
+"<div class=\"where_to_show_input_tooltip\"> <div>Tips</div><div>+ Use a "
+"keyword for a group of pages. Ex: apparel, iphone, blog, new-arrivals</div>"
+"<div>+ Use /page-url for page</div><div>+ Copy and Paste URL from your "
+"browser</div>"
+msgstr ""
+
+#: inc/batil-options.php:594 Themeforest
+#: Packege/batil/inc/batil-options.php:603
+msgid "Hide Bar on Specific Devices"
+msgstr ""
+
+#: inc/batil-options.php:607 Themeforest
+#: Packege/batil/inc/batil-options.php:616
+msgid "Custom CSS"
+msgstr ""
+
+#: Themeforest Packege/batil/inc/batil-options.php:366
+msgid "Google Plus"
+msgstr ""
+
+#. Name of the plugin
+msgid "Batil - WordPress Notification Bar"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Responsive Header Promotional/Notification Bar with Text, Coupon Code, "
+"Countdown Timer and Social Share for your Wordpress"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://devshuvo.com/batil"
+msgstr ""
+
+#. Author of the plugin
+msgid "Devshuvo"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://devshuvo.com"
+msgstr ""
